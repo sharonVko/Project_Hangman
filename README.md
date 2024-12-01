@@ -28,7 +28,7 @@ Welcome to Hangman, a mini-project that brings back the classic word-guessing ga
 
 ## Deployment
 
-Check out the live demo on Netlify: Hangman on Netlify
+Check out the live demo on Netlify: [Hangman](https://project-hngmn.netlify.app/)
 
 ## Getting Started
 
