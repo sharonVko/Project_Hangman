@@ -1,4 +1,4 @@
-# Project Hangman
+# Project H_ngm_n
 
 Welcome to Hangman, a mini-project that brings back the classic word-guessing game we all know from our childhood. This project was created with minimal HTML, CSS, and mainly TypeScript. The design was partially specified, but I added some colors and shadows to enhance the user experience.
 
@@ -42,19 +42,19 @@ sh
 git clone git@github.com:sharonVko/Project_Hangman.git
 ```
 
-Navigate to the project directory:
+- Navigate to the project directory:
 
 ```
 cd hangman
 ```
 
-Install dependencies:
+- Install dependencies:
 
 ```
 npm install
 ```
 
-Run the development server:
+- Run the development server:
 
 ```
 npm run dev

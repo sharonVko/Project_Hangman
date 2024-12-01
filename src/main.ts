@@ -5,7 +5,7 @@ const letterButtonWrapper = document.querySelector('#letter-button__wrapper') as
 const wordOutput = document.querySelector('#word-output') as HTMLParagraphElement;
 const playAgainBtn = document.querySelector('#play-again__btn') as HTMLButtonElement;
 
-const words = ["Abendbrot", "Brueckentag", "Erklaerungsnot", "Fingerspitzengefuehl", "Fremdschaemen", "Geborgenheit", "Geschmacksverirrung", "Schweinehund", "Kopfkino", "Kummerspeck", "Schnapsidee", "Torschlusspanik", "verabredet", "verschlimmbessern", "Vorfreude", "Weltschmerz", "Zeitgeist", "Zugzwang"];
+const words = ["Abendbrot", "Brueckentag", "Erklaerungsnot", "Fingerspitzengefuehl", "Fremdschaemen", "Geborgenheit", "Geschmacksverirrung", "Schweinehund", "Kopfkino", "Kummerspeck", "Schnapsidee", "Torschlusspanik", "verabredet", "verschlimmbessern", "Vorfreude", "Weltschmerz", "Zeitgeist", "Zugzwang", "Hangman", "Coding", "Cupboard", "Turntable", "Beach", "Surfboard", "Turtle","Entertainment", "Cinema", "Radio", "Hoverboard", "Rollerskates"];
 
 //array for letters on the buttons
 const alphabet:string[] = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
@@ -24,7 +24,7 @@ const createLetterButtons = () => {
     button.addEventListener('click',() => {
       //logic for button click:
       console.log(`Button ${letter} was clicked`);
-      displayGuessedLetter(letter, button); //calling function of line
+      displayGuessedLetter(letter, button); //calling function of line 98
       
     } );
     letterButtonWrapper.appendChild(button);
@@ -90,7 +90,7 @@ currentWord = displayWord2guess();
        button.disabled = true; // Button deaktivieren, wenn der Buchstabe falsch ist
         button.style.backgroundColor = "#ccc"; // Hintergrundfarbe des Buttons ändern, um Zustand sichtbar zu machen
          showRounds.textContent = `${currentWord.length - clickCounter}`; // Zeigt die verbleibenden Versuche an
-          } if (clickCounter >= currentWord.length) { console.log("No attempts remaining"); // Füge hier die Logik für das Spielende hinzu 
+          } if (clickCounter >= currentWord.length) { console.log("No attempts remaining");   
             } } */
 
           //test 2 
